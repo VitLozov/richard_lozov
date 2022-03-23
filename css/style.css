@@ -314,7 +314,7 @@ h1 {
 }
 
 .section-feedbacks {
-    padding-bottom: 118px;
+    /*padding-bottom: 118px;*/
 }
 .feedback-quotes-svg{
     margin: auto;
@@ -325,6 +325,11 @@ h1 {
     font-size: 24px;
     line-height: 40px;
     color: #6B6B6B;
+    margin: auto;
+    margin-bottom: 17px;
+    text-align: center;
+    max-width: 700px;
+
 }
 .feedback-author{
     font-size: 16px;
@@ -332,6 +337,9 @@ h1 {
     color: #6B6B6B;
     margin-left: 10px;
     margin-right: 10px;
+    width: 310px;
+    display: inline-block;
+    text-align: right;
 }
 .feedback-source{
     font-size: 16px;
@@ -340,17 +348,53 @@ h1 {
     font-weight: 700;
     margin-left: 10px;
     margin-right: 10px;
+    width: 310px;
+    display: inline-block;
+    text-align: left;
 }
 .feedback-dash{
-    /*vertical-align: center;*/
     position: relative;
     top: -5px;
     margin-left: 10px;
     margin-right: 10px;
+
 }
 .temp2{
-    margin: auto;
+    text-align: center;
+    margin-bottom: 200px;
+}
+.partner-logo-image{
+    max-width: 1008px;
+    margin-bottom: 118px;
+}
+.feedback-phones{
+    margin:auto;
+    width: 1440px;
+}
+
+.owl-carousel img.feedback-dash{
+    display: inline-block;
+    width: 30px;
+}
+.owl-dots{
+    position: absolute;
+    width: 100%;
+    bottom: 160px;
     text-align: center;
 }
+.owl-dots .owl-dot span{
+    height: 7px;
+    width: 7px;
+    background-color: #222222;
+    display: inline-block;
+    margin-left: 8px;
+    margin-right: 8px;
+    opacity: 40%;
+}
+
+.owl-dots .owl-dot.active span{
+    opacity: 100%;
+}
+
 
 
