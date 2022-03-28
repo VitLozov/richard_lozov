@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/owl.theme.default.css">
 
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 
@@ -21,6 +22,65 @@
 </head>
 
 <body>
+
+<nav>
+    <div class="menu-btn">
+        <div class="line line__1"></div>
+        <div class="line line__2"></div>
+        <div class="line line__3"></div>
+    </div>
+
+    <div class="sub-menu-btn">
+        <div class="line line__1"></div>
+        <div class="line line__2"></div>
+    </div>
+
+    <ul class="nav-links">
+        <li class="link">
+            <a href="#">Home</a>
+        </li>
+        <li class="link">
+            <a href="#">About</a>
+            <ol>
+                <li><a href="#">designers</a></li>
+                <li><a href="#">developers</a></li>
+            </ol>
+        </li>
+        <li class="link">
+            <a href="#">Work</a>
+            <ol>
+                <li><a href="#">web</a></li>
+                <li><a href="#">graphic </a></li>
+                <li><a href="#">apps </a></li>
+            </ol>
+        </li>
+        <li class="link">
+            <a href="#">Contact</a>
+            <ol>
+                <li><a href="#">Email</a></li>
+                <li><a href="#">Social</a></li>
+            </ol>
+        </li>
+        <li class="link">
+            <a href="#">follow me</a>
+            <ol>
+                <li>
+                    <a target="_blank" href="https://twitter.com/DevLoop01">
+                        Twitter <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://codepen.io/dev_loop/">
+                        Codepen <i class="fab fa-codepen"></i>
+                    </a>
+                </li>
+            </ol>
+        </li>
+    </ul>
+</nav>
+
+
+
 <header>
     <div class="container-narrow">
         <div class="header-block d-f jc-sb">
@@ -220,15 +280,6 @@
 
     <div class="container-narrow-ultra">
 
-        <!--        <div class="owl-carousel">-->
-        <!--            <div> Your Content</div>-->
-        <!--            <div> Your Content</div>-->
-        <!--            <div> Your Content</div>-->
-        <!--            <div> Your Content</div>-->
-        <!--            <div> Your Content</div>-->
-        <!--            <div> Your Content</div>-->
-        <!--            <div> Your Content</div>-->
-        <!--        </div>-->
 
         <img src="images/feedback-quotes.svg" class="feedback-quotes-svg" alt="quotes">
 
@@ -280,8 +331,65 @@
         <img src="images/feedback-bottom-phones.png" alt="phones" class="img">
     </div>
 </section>
+<section class="section-ready-to-get">
+    <div class="container-narrow-ultra text-center">
+            <h3 class="h3-questions">
+                Ready to get started?
+            </h3>
+            <a href="#" class="btn-pink" target="_blank">Download Now</a>
+            <a href="#" class="btn-transparent" target="_blank">Get in Touch</a>
+
+    </div>
+</section>
+<section class="section-get-updates">
+    <div class="container-narrow-ultra text-center">
+        <h3 class="h3-questions">
+            Get updates from Richard
+        </h3>
+        <p class="get-updates-p">
+            New course alerts, discounts and free lessons
+        </p>
+
+<!--        <form method="post" action="#" name="subscribe">-->
+<!--            <div class="subscribe-field">-->
+<!--                <label for="email"></label>-->
+<!--                <input type="email" name="email" id="email" placeholder="Enter your email">-->
+<!--            </div>-->
+<!--            <button class="btn-subscribe">-->
+<!--                Subscribe-->
+<!--            </button>-->
+
+<!--        </form>-->
+
+        <form method="post" action="#" name="subscribe" class="d-f form-subscribe">
+            <div class="subscribe-field">
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="Enter your email">
+            </div>
+            <button class="btn-subscribe">
+                Subscribe
+            </button>
+        </form>
+
+    </div>
+</section>
 
 <footer>
+    <div class="container-narrow">
+        <div class="footer-logo">
+            <a href="#" target="_blank"><img src="images/logo-r.png" class="img"></a>
+        </div>
+        <ul class="d-f footer-social">
+            <li><a href="#" target="_blank">Email</a></li>
+            <li><a href="#" target="_blank">Instagram</a></li>
+            <li><a href="#" target="_blank">Facebook</a></li>
+            <li><a href="#" target="_blank">Twitter</a></li>
+            <li><a href="#" target="_blank">Image License Info</a></li>
+            <li><a href="#" target="_blank">Powered by Webflow</a></li>
+        </ul>
+
+
+    </div>
 
 </footer>
 

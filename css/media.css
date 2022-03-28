@@ -1,7 +1,28 @@
+@media only screen and (max-width: 1200px) {
+    .container-narrow {
+        max-width: 950px;
+        margin: auto;
+    }
+    .container-wide {
+        max-width: 990px;
+        margin: auto;
+    }
+.slogan-main{
+    max-width: 500px;
+}
+}
 @media only screen and (max-width: 1024px) {
 
 }
 @media only screen and (max-width: 992px) {
+    .container-narrow {
+        max-width: 730px;
+        margin: auto;
+    }
+    .container-wide {
+        max-width: 750px;
+        margin: auto;
+    }
 
 }
 @media only screen and (max-width: 767px) {
