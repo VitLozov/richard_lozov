@@ -126,6 +126,155 @@
 
 }
 @media only screen and (max-width: 767px) {
+    .container-narrow {
+        max-width: 310px;
+        margin: auto;
+    }
+    .container-wide {
+        max-width: 310px;
+        margin: auto;
+    }
+    .container-narrow-ultra {
+        max-width: 300px;
+        margin: auto;
+    }
+
+    .container-narrow-article-940 {
+        max-width: 300px;
+        margin: auto;
+    }
+
+    .section-first {
+        padding-top: 158px;
+        text-align: center;
+        padding-bottom: 7px;
+    }
+    .phone-div {
+        max-width: 342px;
+        top: 180px;
+        right: -110px;
+
+    }
+    h1 {
+        font-size: 55px;
+        line-height: 55px;
+        margin-bottom: 40px;
+    }
+    .slogan-main{
+        max-width: 400px;
+        font-size: 24px;
+        line-height: 34px;
+        margin-bottom: 40px;
+    }
+
+    .triple-image {
+        max-width: 141px;
+    }
+    .triple-image-2 {
+        max-width: 186px;
+    }
+    .margin-between-triple-blocks {
+        margin-right: 0px;
+    }
+    .margin-between-triple-blocks-middle {
+        margin-right: 0px;
+    }
+    .triple-p-top {
+        margin-bottom: 20px;
+    }
+    .triple-h3 {
+        font-size: 24px;
+        line-height: 28px;
+        color: #000000;
+        margin-bottom: 20px;
+    }
+    .triple-block{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .triple-block:nth-child(2){
+        flex-direction: column;
+    }
+    .section-icons-stats {
+        padding-bottom: 20px;
+    }
+    .icons-all-blocks{
+        flex-direction: column;
+    }
+    .icons-p{
+        margin-bottom: 30px;
+    }
+
+    .stata-all-blocks{
+        flex-direction: column;
+    }
+    .stats-description{
+        margin-bottom: 30px;
+    }
+    .article-food-block:first-child{
+        flex-direction: column-reverse;
+    }
+    .article-food-block{
+        flex-direction: column;
+    }
+    .article-food-images {
+        max-width: 250px;
+    }
+    .article-food-h3 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .article-food-block {
+        margin-bottom: 130px;
+    }
+
+    .feedback-text {
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 17px;
+        max-width: 300px;
+    }
+    .feedback-author{
+        width: 100%;
+        font-size: 14px;
+        display: block;
+        text-align: center;
+        margin-left: 0;
+    }
+    .feedback-source{
+        width: 100%;
+        font-size: 14px;
+        display: block;
+        text-align: center;
+        margin-left: 0;
+    }
+    .partner-logo-image {
+        max-width: 620px;
+        margin-bottom: 98px;
+    }
+    .feedback-source-center {
+        margin-bottom: 120px;
+    }
+    .owl-dots {
+        bottom: 100px;
+    }
+    .section-get-updates{
+        padding-top: 99px;
+        padding-bottom: 96px;
+    }
+    .btn-pink{
+        padding: 20px 20px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .btn-transparent{
+        padding: 20px 20px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .section-get-updates input{
+        width: 211px;
+    }
 
 }
 @media only screen and (max-width: 420px) {
