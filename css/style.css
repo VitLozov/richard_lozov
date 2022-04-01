@@ -49,6 +49,7 @@ a {
 header {
     position: absolute;
     width: 100%;
+    z-index: 2;
 }
 
 .header-block {
@@ -86,6 +87,7 @@ header {
     height: 100vh;
     background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
     overflow: hidden;
+    z-index: 1;
 }
 
 h1 {
@@ -350,7 +352,6 @@ h1 {
     margin-bottom: 17px;
     text-align: center;
     max-width: 700px;
-
 }
 
 .feedback-author {
@@ -384,19 +385,21 @@ h1 {
 
 }
 
-.temp2 {
+.feedback-source-center {
     text-align: center;
     margin-bottom: 200px;
 }
 
 .partner-logo-image {
     max-width: 1008px;
+    margin: auto;
     margin-bottom: 118px;
 }
 
 .feedback-phones {
     margin: auto;
-    width: 1440px;
+    max-width: 1440;
+    width: 100%;
 }
 
 .owl-carousel img.feedback-dash {

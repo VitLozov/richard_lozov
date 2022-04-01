@@ -10,6 +10,8 @@
 .slogan-main{
     max-width: 500px;
 }
+
+
 }
 @media only screen and (max-width: 1024px) {
 
@@ -23,6 +25,104 @@
         max-width: 750px;
         margin: auto;
     }
+    .container-narrow-ultra {
+        max-width: 700px;
+        margin: auto;
+    }
+
+    .container-narrow-article-940 {
+        max-width: 750px;
+        margin: auto;
+    }
+
+    .section-first {
+        padding-top: 198px;
+    }
+    .phone-div {
+        max-width: 482px;
+        top: -78px;
+    }
+    h1 {
+        font-size: 55px;
+        line-height: 55px;
+    }
+    .slogan-main{
+        max-width: 400px;
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .section-tablet {
+        background-color: #1B1B1B;
+        padding-top: 80px;
+    }
+    .section-tablet h2 {
+        font-size: 30px;
+        line-height: 38px;
+    }
+    .triple-image {
+        max-width: 241px;
+    }
+    .triple-image-2 {
+        max-width: 286px;
+    }
+    .margin-between-triple-blocks {
+        margin-right: 125px;
+    }
+    .margin-between-triple-blocks-middle {
+        margin-right: 94px;
+    }
+    .triple-p-top {
+        margin-bottom: 20px;
+    }
+    .triple-h3 {
+        font-size: 28px;
+        line-height: 38px;
+        color: #000000;
+        margin-bottom: 20px;
+    }
+    .section-icons-stats {
+        padding-bottom: 80px;
+    }
+
+    .article-food-images {
+        max-width: 350px;
+    }
+    .article-food-h3 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .article-food-block {
+        margin-bottom: 130px;
+    }
+    .feedback-text {
+        font-size: 21px;
+        line-height: 35px;
+        margin-bottom: 17px;
+        max-width: 640px;
+    }
+    .feedback-author{
+        width: 250px;
+        font-size: 14px;
+    }
+    .feedback-source{
+        width: 250px;
+        font-size: 14px;
+    }
+    .partner-logo-image {
+        max-width: 620px;
+        margin-bottom: 98px;
+    }
+    .feedback-source-center {
+        margin-bottom: 120px;
+    }
+    .owl-dots {
+        bottom: 100px;
+    }
+    .section-get-updates{
+        padding-top: 99px;
+        padding-bottom: 96px;
+    }
+
 
 }
 @media only screen and (max-width: 767px) {
