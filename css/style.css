@@ -530,3 +530,38 @@ footer{
     text-decoration: none;
     color: #6B6B6B;
 }
+.ui-widget-content{
+    background-color: #400c44;
+    color: white;
+    text-align: center;
+}
+.ui-widget-header {
+    background-color: #c60160;
+    color: #400c44;
+    border: 0;
+    text-align: center;
+}
+div.ui-dialog{
+    width: 500px;
+    border: 0;
+}
+.ui-widget.ui-widget-content{
+    border: 1px solid #28092b;
+}
+.ui-icon{
+    /*width: 30px;*/
+    /*height: 30px;*/
+    transform: scale(2);
+}
+.ui-dialog .ui-dialog-titlebar-close {
+    position: absolute;
+    right: -2.9em;
+    top: -100%;
+    width: 40px;
+    margin: -10px 0 0 0;
+    padding: 1px;
+    height: 40px;
+    /*opacity: 40%;*/
+    background-color: rgba(0,0,0,0.2);
+    border: 0;
+}
