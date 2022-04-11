@@ -5,16 +5,15 @@
 
 body {
     position: relative;
-    /*width: 100%;*/
     z-index: 2;
     /*overflow: hidden;*/
+    /*overflow-x: hidden;*/
+}
+html{
+    position: relative;
+    /*z-index: 2;*/
     overflow-x: hidden;
 }
-/*html{*/
-/*    position: relative;*/
-/*    z-index: 2;*/
-/*    overflow-x: hidden;*/
-/*}*/
 
 /*body::after {*/
 /*    content: "";*/
