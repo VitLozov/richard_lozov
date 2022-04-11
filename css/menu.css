@@ -16,15 +16,15 @@ body {
 /*    overflow-x: hidden;*/
 /*}*/
 
-body::after {
-    content: "";
-    position: absolute;
-    /*z-index: 1;*/
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.35); }
+/*body::after {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    !*z-index: 1;*!*/
+/*    !*left: 0;*!*/
+/*    top: 0;*/
+/*    right: 0;*/
+/*    bottom: 0;*/
+/*    background: rgba(0, 0, 0, 0.35); }*/
 
 nav {
     --transition-time: 500ms;
