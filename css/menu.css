@@ -3,17 +3,13 @@
     margin: 0;
     padding: 0; }
 
-body {
+html, body {
     position: relative;
     z-index: 2;
     /*overflow: hidden;*/
-    /*overflow-x: hidden;*/
-}
-html{
-    position: relative;
-    /*z-index: 2;*/
     overflow-x: hidden;
 }
+
 
 /*body::after {*/
 /*    content: "";*/
