@@ -10,12 +10,11 @@ html, body {
     overflow-x: hidden;
 }
 
-
 /*body::after {*/
 /*    content: "";*/
-/*    position: absolute;*/
-/*    !*z-index: 1;*!*/
-/*    !*left: 0;*!*/
+/*    !*position: absolute;*!*/
+/*    z-index: 1;*/
+/*    left: 0;*/
 /*    top: 0;*/
 /*    right: 0;*/
 /*    bottom: 0;*/
@@ -111,7 +110,7 @@ nav .sub-menu-btn {
     --icon-width: 40px;
     position: absolute;
     top: 6%;
-    left: 10%;
+    right: 10%;
     width: var(--icon-width);
     height: var(--icon-width);
     background: rgba(0, 0, 0, 0.25);
